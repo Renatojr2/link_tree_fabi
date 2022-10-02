@@ -22,12 +22,13 @@ class _HomePageState extends State<HomePage> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      backgroundColor: Colors.black87,
+      backgroundColor: Color.fromARGB(221, 13, 13, 13),
       body: SafeArea(
         child: Padding(
           padding: const EdgeInsets.symmetric(horizontal: 16),
           child: Column(
             children: [
+              const SizedBox(height: 20),
               const Center(
                 child: Text(
                   'Bem-vindos!',
